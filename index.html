@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Puissance 4</title>
+  </head>
+  <body>
+    <header>
+      <h1>Puissance 4</h1>
+    </header>
+    <main>
+        <button onclick="setCpuMode(true)" type="button" class="oneJ"> Player VS Bot</button>
+            <button onclick="setCpuMode(false)" type="button" class="twoJ">Player VS Player</button>
+            <div id="reply" class="hidden">
+                <button onclick="replay()" type="button" class="replay">Rejouer</button>
+                
+              </div>
+        <div id="table"></div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

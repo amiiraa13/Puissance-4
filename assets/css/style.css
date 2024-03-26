@@ -1,0 +1,118 @@
+@font-face {
+    font-family: face;
+    src: url(../fonts/Moonhouse-yE5M.ttf);
+}
+
+body{
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: face;
+    
+   
+}
+h1{
+    text-align: center;
+    color: #62b5f5;
+    font-size: 50px;
+    text-shadow: 1px 1px 2px rgb(0 0 0), 0 0 1em rgb(105 153 178), 0 0 0.2em black;
+}
+#table{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    margin: auto;
+    background-color: #62b5f5;
+    font-size: 50px;
+    text-align: center;
+    border: solid #0d459f 6px;
+    margin-top: 100px;
+    color: #62b5f5;
+    text-shadow: 1px 1px 2px rgb(0 0 0), 0 0 1em rgb(105 153 178), 0 0 0.2em black;
+    justify-content: center;
+    padding: 10px;
+    
+  
+}
+.row{
+    display: flex;
+    flex:1;
+    
+
+}
+.cell{
+    border: #0d459f solid;
+    flex:1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 5px;
+    
+}
+.yel{
+    background-color: #fee185;
+    
+}
+.red{
+    border: #0d459f solid;
+    background-color: #ff8a64;
+    
+    
+}
+.hidden{
+    display: none;
+}
+.oneJ{
+    display: flex;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-family: face;
+    background-color: transparent;
+    align-items: center;
+    padding: 15px;
+    color: #62b5f5;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(0 0 0), 0 0 1em rgb(105 153 178), 0 0 0.2em black;
+}
+.twoJ{
+    display: flex;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-family: face;
+    font-size: 20px;
+    align-items: center;
+    background-color: #dc269000;
+    color: #62b5f5;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(0 0 0), 0 0 1em rgb(105 153 178), 0 0 0.2em black;
+    padding: 15px;
+}
+.replay{
+    display: flex;
+    margin: auto;
+    border: none;
+    text-align: center;
+    font-family: face;
+    
+    align-items: center;
+    background-color: #bf96ae00;
+    color: #62b5f5;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(0 0 0), 0 0 1em rgb(105 153 178), 0 0 0.2em black;
+    padding: 15px;
+    padding: 15px;
+}
+
+.bg{
+    background: transparent !important;
+    color: #0d459f;
+    ;
+}
